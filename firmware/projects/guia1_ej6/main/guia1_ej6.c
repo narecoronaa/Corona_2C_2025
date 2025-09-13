@@ -1,4 +1,4 @@
-/*! @mainpage Template
+/*! @mainpage Visualización de números en display multiplexado con CD4543 y ESP32
  *
  * @section genDesc General Description
  *
@@ -10,18 +10,23 @@
  *
  * @section hardConn Hardware Connection
  *
- * |    Peripheral  |   ESP32   	|
- * |:--------------:|:--------------|
- * | 	PIN_X	 	| 	GPIO_X		|
- *
+ * |    Peripheral   |   ESP32   |
+ * |:--------------: |:---------:|
+ * |   BCD0          |  GPIO_20  |
+ * |   BCD1          |  GPIO_21  |
+ * |   BCD2          |  GPIO_22  |
+ * |   BCD3          |  GPIO_23  |
+ * |   SEL1          |  GPIO_19  |
+ * |   SEL2          |  GPIO_18  |
+ * |   SEL3          |  GPIO_9   |
  *
  * @section changelog Changelog
  *
  * |   Date	    | Description                                    |
  * |:----------:|:-----------------------------------------------|
- * | 12/09/2023 | Document creation		                         |
+ * | 13/09/2025 | Document creation		                         |
  *
- * @author Albano Peñalva (albano.penalva@uner.edu.ar)
+ * @author Corona Narella (narella.corona@ingenieria.uner.edu.ar)
  *
  */
 
